@@ -1,0 +1,10 @@
+# .gitingore
+.pytest_cache/
+__pycache__/
+build/
+dist/
+*.egg-info/
+*.py[cod]
+
+Makefile
+TODO
