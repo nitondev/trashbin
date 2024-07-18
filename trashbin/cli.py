@@ -125,7 +125,7 @@ def list_trash():
 
 def restore_from_trash():
     if not os.path.exists(METADATA) or os.path.getsize(METADATA) == 0:
-        console.print("[green]trash:[/] Trash bin is empty.")
+        console.print("[green]trash:[/] Trash bin is empty. :sparkles:")
         return
 
     trash_entries = list_trash()
@@ -174,7 +174,7 @@ def remove_metadata_entry(unique_filename):
 
 def empty_trash():
     if not os.path.exists(METADATA) or os.path.getsize(METADATA) == 0:
-        console.print("[green]trash:[/] Trash bin is already empty.")
+        console.print("[green]trash:[/] Trash bin is empty. :sparkles:")
         return
 
     try:
